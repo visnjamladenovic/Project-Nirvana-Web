@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto auto;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 50px;
+}
+#image-logo{
+    max-width:300px;
+    height: auto;
+}
