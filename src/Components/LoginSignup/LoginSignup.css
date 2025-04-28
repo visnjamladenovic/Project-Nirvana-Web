@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     margin: 100px auto auto;
     background-color: white;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .header{
     display: flex;
@@ -19,4 +19,12 @@ body{
 #image-logo{
     max-width:300px;
     height: auto;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap: 10px;
 }
